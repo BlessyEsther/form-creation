@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<head>
+   <title>Form creation</title>
+</head>
+<body>
+<form>
+   <fieldset>
+      <legend>Application form</legend>
+	  <label for="fname">First Name</label>
+	     <input type="text" id="fname" name="fname" autofocus><br><br>
+	  <label for ="lname">Last Name</label>
+	     <input type="text" id="lname" name="lname" placeholder="Esther"><br><br>
+	  <label for ="mail">Email id </label>
+	     <input type="email" id="mail" name="mail" autocomplete="on"><br><br>
+	  <label for="mblno">Mobile Number</label>
+	     <input type="number" id="mblno" name="mblno"><br><br>
+	  <label for ="dob">Date Of Birth</label>
+	     <input type="date" id="dob" name="dob" required><br><br>
+	  <label for ="date">Date and Time of filling this form</label>
+	     <input type="datetime-local" id="date" name="date"><br><br>
+	  <label for="password">Password given</label>
+	     <input type="password" id="password" name="password"><br><br>
+	  <p>Department to be chosen:</p>
+	     <input type="radio" id="ece" name="dept" value="ECE">
+	  <label for="ece">ECE</label><br><br>
+	     <input type="radio" id="eee" name="dept" value="EEE">
+	  <label for="eee">EEE</label><br><br>
+	  <p>Select companies in which training should be given for you:</p>
+	     <input type="checkbox" id="embedded ur" name="company1" value="Embedded UR">
+	  <label for="embedded ur">Embedded UR</label><br><br>
+	     <input type="checkbox" id="pega university" name="company2" value="Pega University">
+	  <label for="pega university">Pega University</label><br><br>
+	     <input type="checkbox" id="tessolve" name="company3" valu="Tessolve">
+	  <label for="tessolve">Tessolve</label><br><br>
+	  <label for="tshirt colour">Tshirt Colour Given:</label>
+	     <input type="color" id="tshirt colour" name="tshirt colour" value="black"><br><br>
+	  <label for="starting month">Month of joining</label>
+	     <input type="month" id="starting month" name="starting month"><br><br>
+		 <input type="image" src="image/nature.jpg" width="400" height="300" value="picture"><br><br>
+	  <label for="rating">Rate us between 1 to 10:</label>
+	     <input type="range" id="rating" name="rating"><br><br>
+	     <input type="button" onclick="alert('end of the form')" value="Click here">
+		 <input type="hidden" id="msg" name="msg" value="Success">
+ 	     <input type="submit" value="submit">
+		 <input type="reset">
+   </fieldset>
+</form>
